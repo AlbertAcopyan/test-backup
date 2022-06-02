@@ -2,7 +2,7 @@ name: Backup Firestore
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/1 * * * *"
 
 env:
   PROJECT_ID: rc-dev-demo
@@ -12,7 +12,7 @@ jobs:
   backup:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/setup-gcloud@master
+      - uses: google-github-actions/setup-gcloud@dev
         with:
           service_account_key: ${{ secrets.GCP_SA_KEY }}
           export_default_credentials: true
