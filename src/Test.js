@@ -30,3 +30,4 @@ export default Test;
 
 // d9Dy5cHmv2BFS6bD5Et74RaVcBxuYFob70qoBzaqdcuazwSX   token
 // dGE4SVOVbW1Q2pygiFAlmws4   password
+// 1//0cn61OtldW5fXCgYIARAAGAwSNwF-L9IrMeSOiIfGEI1lxdI_tciKv33SZmPO0PrvF9sgakW4m1OUzuFK7iMfKWf9RMtRRy9dr9s     CI TOKEN
